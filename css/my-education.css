@@ -1,0 +1,73 @@
+@import url('variables.css');
+
+.skills {
+	color: black;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.skills h1 {
+	text-align: center;
+	color: var(--electric-blue);
+	text-transform: uppercase;
+	margin: 0em 0 1em 0;
+	font-size: 2.5em;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+	padding-top: 0.7em;
+}
+
+.education-uni {
+	display: grid;
+	grid-template-columns: 35% 65%;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+}
+
+.education-uni:not(:last-child ){
+	border-bottom: 1px dashed #d2d6da;;
+}
+
+.education-uni h4 {
+	letter-spacing: 0.1em;
+	font-weight: 200;
+}
+
+.education-uni h6 {
+	font-size: 0.7em;
+	letter-spacing: 0.1em;
+	font-style: italic;
+	font-weight: 200;
+}
+
+.education-info h4 {
+	font-size: 1em;
+	letter-spacing: 2px;
+}
+
+.education-info p {
+	font-size: 0.8em;
+	color: var(--pewter-grey);
+}
+.education-info a {
+	text-decoration: none;
+}
+.education-year {
+	margin-right: 1em;
+}
+
+.education-year h4, .education-year h6 {
+	border-left: 4px solid var(--papaya-orange);
+	padding-left: 0.5em;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+.education-year  h6 {
+	color: var(--electric-blue);
+	padding-left: 1em;
+}
+
+

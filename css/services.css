@@ -1,0 +1,50 @@
+@import url('variables.css');
+
+.services {
+	text-align: center;
+	margin-top: 2em;
+}
+
+.header-services {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header-services h1 {
+	font-size: 2.5em;
+	padding-top: 0.8em;
+	color: white;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+}
+
+.services {
+	background: url('../images/serve.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+
+.service-container {
+	color: white;
+	display: grid;
+	grid-template-columns: 32% 32% 32%;
+/* 	align-items: center; */
+	justify-content: space-around;
+	padding: 0 4em 4em 4em;
+}
+
+.service h4 {
+	margin: 0.5em auto;
+	color: var(--electric-blue);
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.service p {
+	color: var(--anchor-grey);
+	font-size: 0.8em;
+}
+
+.fa, .far {
+	font-size: 2.5em;
+	color: white;
+}
