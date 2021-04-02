@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Tsvyatko Kirilov CV</title>
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+	integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+<script src="javascript/functions.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="javascript/navigation.js"></script>
+<script src="javascript/skills.js"></script>
+</head>
+<body>
+	<header id="header">
+		<img src="images/Me.jpg" alt="" class="img-responsive">
+		<h1>Tsvyatko Kirilov</h1>
+		<p>PROGRAMMER / JAVA DEVELOPER</p>
+	</header>
+	<main>
+		<nav class="navigation" id="navigation">
+			<a href="#header" class="active">Home</a> <a href="#about-me">About</a>
+			<a href="#services">Services</a> <a href="#skills">Skills</a> <a
+				href="#repositories">Repositories</a> <a href="#contacts">Contacts</a>
+			<a href="javascript:void(0);" class="icon" onclick="showNavigation()">
+				<i class="fa fa-bars nav-icon"></i>
+			</a>
+		</nav>
+
+		<section class="about-me" id="about-me">
+			<div class="header-about-me">
+				<h1>About Me</h1>
+				<p class="subheading">A few words about me</p>
+			</div>
+			<div class="my-info">
+				<div class="align-left">
+					<img src="images/ab.jpg" alt="">
+				</div>
+				<div class="align-right">
+					<div class="align-right-info">
+						<h4>Job Title</h4>
+						<p>Programmer / Java Developer</p>
+					</div>
+					<div class="align-right-info">
+						<h4>Name</h4>
+						<p>Tsvyatko Kirilov</p>
+					</div>
+					<div class="align-right-info">
+						<h4>Sex</h4>
+						<p>Male</p>
+					</div>
+					<div class="align-right-info">
+						<h4>Address</h4>
+						<p>2 Belmeken Str., Sofia, Bulgaria</p>
+					</div>
+					<div class="align-right-info">
+						<h4>Email Address</h4>
+						<p>
+							<a href="mailto:cvqtkokirilov@gmail.com">cvqtkokirilov@gmail.com</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services" id="services">
+			<div class="header-services">
+				<h1>What i do for you</h1>
+				<p class="subheading">See my services</p>
+			</div>
+			<div class="service-container">
+				<div class="service">
+					<i class="fa fa-cog"></i>
+					<h4>Choose me</h4>
+					<p>Fast learning, diligent, self-led, I can finds key resources
+						and reads on the latest tech trends and solutions to contribute to
+						the company / project success!</p>
+				</div>
+				<div class="service">
+					<i class="fa fa-laptop"></i>
+					<h4>What I do</h4>
+					<p>Strong Java development skills mixed with good HTML5 and SQL
+						understanding.</p>
+				</div>
+				<div class="service">
+					<i class="far fa-thumbs-up"></i>
+					<h4>My mission</h4>
+					<p>To deliver the next generation of information technology
+						services and solutions, exceeding all client expectations.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="skills">
+			<div class="education">
+				<h1>My education</h1>
+				<div class="education-uni">
+					<div class="education-year">
+						<h4>2020-2021</h4>
+						<h6>
+							Software<br>Developer
+						</h6>
+					</div>
+					<div class="education-info">
+						<h4>SoftUni</h4>
+						<p>
+							Studying to become a Java Web Developer with a lot of practical
+							tasks and projects. <a
+								href="https://github.com/Cvqtko?tab=repositories"
+								target="_blank">Check out my GitHub profile</a>.
+						</p>
+					</div>
+				</div>
+				<div class="education-uni">
+					<div class="education-year">
+						<h4>2012-2015</h4>
+						<h6>
+							Master<br>Degree
+						</h6>
+					</div>
+					<div class="education-info">
+						<h4>Technical Univercity of Sofia</h4>
+						<p>Masters degree in Computer science and Software
+							engineering.</p>
+					</div>
+
+				</div>
+				<div class="education-uni">
+					<div class="education-year">
+						<h4>2008-2012</h4>
+						<h6>
+							Bachelor<br>Degree
+						</h6>
+					</div>
+					<div class="education-info">
+						<h4>VSU "Lyuben Karavelov" Sofia</h4>
+						<p>Bachelor degree in civil engineering and architecture.</p>
+					</div>
+				</div>
+				<div class="education-uni">
+					<div class="education-year">
+						<h4>2003-2008</h4>
+						<h6>
+							High<br>School
+						</h6>
+					</div>
+					<div class="education-info">
+						<h4>High School "Hristo Botev" Dupnica</h4>
+						<p>Studying in-depth Math, Information Technologies and
+							English.</p>
+					</div>
+				</div>
+			</div>
+			<div class="myskills" id="skills">
+				<h1>My Skills</h1>
+				<ul>
+					<li><h3>JAVA</h3> <span class="bar"><span class="java"
+							id="java"></span></span></li>
+					<li><h3>HTML5</h3> <span class="bar"><span class="html"
+							id="html"></span></span></li>
+
+					<li><h3>CSS3</h3> <span class="bar"><span class="css"
+							id="css"></span></span></li>
+
+					<li><h3>MySQL</h3> <span class="bar"><span
+							class="my-sql" id="my-sql"></span></span></li>
+					<li><h3>JavaScript</h3> <span class="bar"><span
+							class="javascript" id="javascript"></span></span></li>
+					<li><h3>Data Structures and Algorithms</h3> <span class="bar"><span
+							class="alg" id="alg"></span></span></li>
+					<li><h3>Design Patterns</h3> <span class="bar"><span
+							class="design-patterns" id="design-patterns"></span></span></li>
+					<li><h3>Hibernate</h3> <span class="bar"><span
+							class="hibernate" id="hibernate"></span></span></li>
+				</ul>
+			</div>
+		</section>
+		<section class="skills">
+			<div id="intro-to-sql" class="certificate"
+				onclick="hideElement('intro-to-sql')">
+				<embed src="images/Coursera ZK9MRXQG8T72.pdf" />
+			</div>
+			<div id="java-oop" class="certificate"
+				onclick="hideElement('java-oop')">
+				<embed src="images/Coursera PHSUYWK2N862.pdf" />
+			</div>
+			<div id="html5" class="certificate" onclick="hideElement('html5')">
+				<embed src="images/Coursera P7SSPXPNGWNH.pdf" />
+			</div>
+			<div id="operating-systems" class="certificate"
+				onclick="hideElement('operating-systems')">
+				<embed src="images/Coursera A5JJNRS48KK6.pdf" />
+			</div>
+			<div id="networking" class="certificate"
+				onclick="hideElement('networking')">
+				<embed src="images/Coursera MV35NLJE8TJS.pdf" />
+			</div>
+			<div id="technical-support" class="certificate"
+				onclick="hideElement('technical-support')">
+				<embed src="images/Coursera YNWG4WRR5ATT.pdf" />
+			</div>
+
+
+			<div class="certificates">
+				<h1>Certificates</h1>
+				<div class="certificates-container">
+					<div class="sertificate" onclick="showElement('intro-to-sql')">
+						<img src="images/certificate.png">
+						<h6>
+							Introduction to SQL - University of Michigan
+							<p>Learning basic syntax of the SQL language as well as
+								database design with multiple tables, joins, transactions and
+								stored procedures.</p>
+						</h6>
+
+					</div>
+					<div class="sertificate" onclick="showElement('java-oop')">
+						<img src="images/certificate.png">
+						<h6>
+							Object Oriented Programming in Java - UC San Diego
+							<p>Learning Object Oriented Java programming, Data
+								Structures, Algorithms and beyond.</p>
+						</h6>
+
+					</div>
+					<div class="sertificate" onclick="showElement('html5')">
+						<img src="images/certificate.png">
+						<h6>
+							HTML, CSS, and JavaScript - Johns Hopkins University
+							<p>Learning the fundamentals of HTML5, CSS3 and JavaScript.</p>
+						</h6>
+
+					</div>
+					<div class="sertificate" onclick="showElement('operating-systems')">
+						<img src="images/certificate.png">
+						<h6>
+							OS and You: Becoming a Power User - Google
+							<p>Learn the main components of an operating system and how
+								to perform critical tasks like managing software and users, and
+								configuring hardware.</p>
+						</h6>
+
+					</div>
+					<div class="sertificate" onclick="showElement('networking')">
+						<img src="images/certificate.png">
+						<h6>
+							The Bits and Bytes of Computer Networking - Google
+							<p>Learning everything from the fundamentals of modern
+								networking technologies and protocols to an overview of the
+								cloud to practical applications and network troubleshooting.</p>
+						</h6>
+
+					</div>
+					<div class="sertificate" onclick="showElement('technical-support')">
+						<img src="images/certificate.png">
+						<h6>
+							Technical Support Fundamentals - Google
+							<p>Learning about the different facets of Information Technology,
+							 like computer hardware, the Internet, computer software, troubleshooting, and customer service.</p>
+						</h6>
+
+					</div>
+
+				</div>
+			</div>
+
+
+			<div class="experience">
+				<div class="my-experience">
+					<h1>My experience</h1>
+					<div class="education-uni">
+						<div class="education-year">
+							<h4>2020-2021</h4>
+							<h6>
+								Software<br>Developer
+							</h6>
+						</div>
+						<div class="education-info">
+							<h4>Freelancer</h4>
+							<p>Making HTML & Photoshop mokups for various companies. Developing my skills as a 
+							software developer by taking various courses from SoftUni and Coursera.</p>
+						</div>
+					</div>
+					<div class="education-uni">
+						<div class="education-year">
+							<h4>2018-2020</h4>
+							<h6>
+								Car<br>Dealer
+							</h6>
+						</div>
+						<div class="education-info">
+							<h4>Self Employed</h4>
+							<p>Fixing, cleaning, repainting used cars and reselling them.</p>
+						</div>
+					</div>
+					<div class="education-uni">
+						<div class="education-year">
+							<h4>2017-2018</h4>
+							<h6>
+								Visteon <br>Bulgaria
+							</h6>
+						</div>
+						<div class="education-info">
+							<h4>Software Test Engineer</h4>
+							<p>Planning, preparation, execution and analization of tests for automotive electronics.</p>
+						</div>
+					</div>
+					<div class="education-uni">
+						<div class="education-year">
+							<h4>2016-2017</h4>
+							<h6>
+								Civil<br>Engineer
+							</h6>
+						</div>
+						<div class="education-info">
+							<h4>Pepeterio S.L, Pilar, Spain</h4>
+							<p>Constructing wooden houses and pergolas.</p>
+						</div>
+					</div>
+					<div class="education-uni">
+						<div class="education-year">
+							<h4>2015-2015</h4>
+							<h6>
+								Junior Java<br>Developer
+							</h6>
+						</div>
+						<div class="education-info">
+							<h4>Oryx Bulgaria</h4>
+							<p>Preparing for Hybris exam and certification.
+							Working on a Home Automation project.</p>
+						</div>
+					</div>
+					<div class="education-uni">
+						<div class="education-year">
+							<h4>2015-2015</h4>
+							<h6>
+								Java EE<br>Trainee
+							</h6>
+						</div>
+						<div class="education-info">
+							<h4>ITTALLENTS training camp</h4>
+							<p>Completed an overall course on Java and Java EE technologies.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="repositories" id="repositories">
+			<h1>My repositories</h1>
+			<p class="subheading">Check out my work</p>
+			<ul class="wrapper">
+				<li class="spring-mvc button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="java-ee whiten button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="hibernate-repo button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="footer-my-sql button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="java-oop button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="html-css button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="footer-design-patterns button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="java-advanced button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+				<li class="game button"><a class="link"
+					href="https://github.com/Cvqtko?tab=repositories"></a></li>
+			</ul>
+		</section>
+	</main>
+
+	<footer id="contacts">
+		<div id="map" onclick="hideElement('map')">
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34166.66299361514!2d23.281586912350374!3d42.662134741553885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40aa84cecc3febb7%3A0xf139452796a01acf!2sul.%20%22Belmeken%22%202%2C%201618%20Bakston%2C%20Sofia!5e0!3m2!1sen!2sbg!4v1577883171325!5m2!1sen!2sbg"></iframe>
+
+		</div>
+		<div class="footer-container">
+
+			<div class="container hide-map" id="hide-map">
+
+				<div class="icons" onclick="showElement('map')">
+					<a href="#contacts"><i class="fas fa-map-marker-alt" id="fas"></i></a>
+				</div>
+				<h6 id="location" onclick=showMap()>Location</h6>
+				<p onclick=showMap()>2 Belmeken Str., Sofia, Bulgaria</p>
+			</div>
+			<div class="container email">
+				<div class="icons" onclick="sendEmail()">
+					<a href="mailto:cvqtkokirilov@gmail.com"><i
+						class="fas fa-envelope" id="fas"></i></a>
+				</div>
+				<h6 id="mail" onclick="sendEmail()">Email</h6>
+				<p onclick="sendEmail()">cvqtkokirilov@gmail.com</p>
+			</div>
+			<div class="container call">
+				<div class="icons">
+					<a href="javascript:void(0);"><i class="fas fa-phone-volume"
+						id="fas"></i></a>
+				</div>
+				<h6 id="call">Call me</h6>
+				<p>(+359) 879 89 29 14</p>
+			</div>
+		</div>
+		<p class="copyright">
+			© 2021 Tsvyatko Kirilov Resume. All Rights Reserved.<a class="git"
+				href="https://github.com/Cvqtko" target="_blank">GitHub</a>
+		</p>
+
+	</footer>
+</body>
+</html>
