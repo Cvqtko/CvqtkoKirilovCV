@@ -1,0 +1,152 @@
+@import url('variables.css');
+
+.myskills h1 {
+	color: white;
+}
+
+.myskills {
+	background: url('../images/banner1.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+
+.myskills ul {
+	list-style: none;
+	width:86%;
+	margin-left: 7%;
+	color:white;
+}
+
+.myskills h3{
+	font-size: 1em;
+	margin-left: 0.162em;
+	padding-bottom: 0.168em;
+	font-style: italic;
+}
+
+.myskills li{
+	padding-bottom: 2em;
+}
+
+.bar {
+	background: white;
+	display: block;
+	height: 8.1px;
+	border: 1px solid black;
+	overflow: hidden;
+	border-radius: 3px;	
+}
+
+.bar span{
+	height: 8.1px;
+	float: left;
+	background: #44c7f4;
+}
+
+.java{
+	width:80%;
+	border-radius: 3px;
+	animation: java 1.618s;
+}
+
+.html{
+	width:80%;
+	border-radius: 3px;
+	animation: html 1.618s;
+}
+
+.css{
+	width:80%;
+	border-radius: 3px;
+	animation: html 1.618s;
+}
+
+.my-sql{
+	width:80%;
+	border-radius: 3px;
+	animation: sql 1.618s;
+}
+
+.javascript{
+	width:40%;
+	border-radius: 3px;
+	animation: javascript 1.618s;
+}
+
+.alg{
+	width:80%;
+	border-radius: 3px;
+	animation: alg 1.618s;
+}
+
+.design-patterns{
+	width:80%;
+	border-radius: 3px;
+	animation: alg 1.618s;
+}
+.hibernate{
+	width:70%;
+	border-radius: 3px;
+	animation: hibernate 1.618s;
+}
+
+@keyframes java{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes html{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+@keyframes sql{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes javascript{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:40%;
+	}
+}
+
+@keyframes alg{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes design-patterns{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes hibernate{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:70%;
+	}
+}

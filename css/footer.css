@@ -1,0 +1,159 @@
+@import url('variables.css');
+footer {
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+.footer-container {
+	display: grid;
+	grid-template-columns: repeat(3, 350px);
+	grid-gap: 20px;
+	justify-content: center;
+	background: black;
+	padding-top: 3em;
+	color: white;
+	text-align: center;
+}
+
+.copyright .git {
+	color: var(--electric-blue);
+}
+
+.copyright {
+	color: var(--iron-grey);
+	margin-top: 3em;
+	padding-bottom: 2em;
+	font-size: 0.7em;
+}
+
+footer p a {
+	color: var(--iron-grey);
+	text-decoration: none;
+}
+
+.container {
+	width: 350px;
+	height: 150px;
+	background: var(--charcoal); 
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container h6 {
+	border: none;
+	text-transform: uppercase;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	margin: 0.2em auto;
+}
+
+.container p {
+	color: var(--iron-grey);
+	font-size: 0.7em;
+}
+
+.icons {
+	background-color: var(--electric-blue);
+	border-radius: 30px;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+.icons>a i {
+	position: relative;
+	top: calc(20%);
+	color: white;
+}
+
+.icons:hover {
+	cursor: pointer;
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.icons:hover+#location {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover+#mail {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover>#fas {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover>a #fas {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover {
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+#mail a {
+	text-decoration: none;
+	color: white;
+}
+
+.icons:hover+#mail a {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
+.icons:hover {
+	background-color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.icons:hover+#call {
+	color: var(--electric-blue);
+	transition: all 0.5s ease-in;
+}
+
+#map {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	left: 0%;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+iframe {
+	position: fixed;
+	width: 80%;
+	height: 80%;
+	top: 10%;
+	left: 10%;
+    animation-name: fadeIn;
+    animation-duration: 1s; 
+}
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;       
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1; 
+    }       
+}
+
+
+.container h6,.container p{
+	cursor: pointer;
+}
